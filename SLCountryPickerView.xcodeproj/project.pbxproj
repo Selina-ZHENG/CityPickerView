@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		436F2518214CAC9900263F2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 436F2517214CAC9900263F2E /* AppDelegate.m */; };
+		436F251B214CAC9900263F2E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 436F251A214CAC9900263F2E /* ViewController.m */; };
+		436F251E214CAC9900263F2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 436F251C214CAC9900263F2E /* Main.storyboard */; };
+		436F2521214CAC9900263F2E /* SLCountryPickerView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 436F251F214CAC9900263F2E /* SLCountryPickerView.xcdatamodeld */; };
+		436F2523214CAC9B00263F2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 436F2522214CAC9B00263F2E /* Assets.xcassets */; };
+		436F2526214CAC9B00263F2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 436F2524214CAC9B00263F2E /* LaunchScreen.storyboard */; };
+		436F2529214CAC9B00263F2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 436F2528214CAC9B00263F2E /* main.m */; };
+		436F2533214CAC9B00263F2E /* SLCountryPickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 436F2532214CAC9B00263F2E /* SLCountryPickerViewTests.m */; };
+		436F253F214CACFA00263F2E /* SLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 436F253E214CACFA00263F2E /* SLBaseViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		436F252F214CAC9B00263F2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 436F250B214CAC9900263F2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 436F2512214CAC9900263F2E;
+			remoteInfo = SLCountryPickerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		436F2513214CAC9900263F2E /* SLCountryPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLCountryPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		436F2516214CAC9900263F2E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		436F2517214CAC9900263F2E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		436F2519214CAC9900263F2E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		436F251A214CAC9900263F2E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		436F251D214CAC9900263F2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		436F2520214CAC9900263F2E /* SLCountryPickerView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SLCountryPickerView.xcdatamodel; sourceTree = "<group>"; };
+		436F2522214CAC9B00263F2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		436F2525214CAC9B00263F2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		436F2527214CAC9B00263F2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		436F2528214CAC9B00263F2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		436F252E214CAC9B00263F2E /* SLCountryPickerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLCountryPickerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		436F2532214CAC9B00263F2E /* SLCountryPickerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLCountryPickerViewTests.m; sourceTree = "<group>"; };
+		436F2534214CAC9B00263F2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		436F253D214CACFA00263F2E /* SLBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLBaseViewController.h; sourceTree = "<group>"; };
+		436F253E214CACFA00263F2E /* SLBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLBaseViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		436F2510214CAC9900263F2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		436F252B214CAC9B00263F2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		436F250A214CAC9900263F2E = {
+			isa = PBXGroup;
+			children = (
+				436F2515214CAC9900263F2E /* SLCountryPickerView */,
+				436F2531214CAC9B00263F2E /* SLCountryPickerViewTests */,
+				436F2514214CAC9900263F2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		436F2514214CAC9900263F2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				436F2513214CAC9900263F2E /* SLCountryPickerView.app */,
+				436F252E214CAC9B00263F2E /* SLCountryPickerViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		436F2515214CAC9900263F2E /* SLCountryPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				436F2516214CAC9900263F2E /* AppDelegate.h */,
+				436F2517214CAC9900263F2E /* AppDelegate.m */,
+				436F2519214CAC9900263F2E /* ViewController.h */,
+				436F251A214CAC9900263F2E /* ViewController.m */,
+				436F253D214CACFA00263F2E /* SLBaseViewController.h */,
+				436F253E214CACFA00263F2E /* SLBaseViewController.m */,
+				436F251C214CAC9900263F2E /* Main.storyboard */,
+				436F2522214CAC9B00263F2E /* Assets.xcassets */,
+				436F2524214CAC9B00263F2E /* LaunchScreen.storyboard */,
+				436F2527214CAC9B00263F2E /* Info.plist */,
+				436F2528214CAC9B00263F2E /* main.m */,
+				436F251F214CAC9900263F2E /* SLCountryPickerView.xcdatamodeld */,
+			);
+			path = SLCountryPickerView;
+			sourceTree = "<group>";
+		};
+		436F2531214CAC9B00263F2E /* SLCountryPickerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				436F2532214CAC9B00263F2E /* SLCountryPickerViewTests.m */,
+				436F2534214CAC9B00263F2E /* Info.plist */,
+			);
+			path = SLCountryPickerViewTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		436F2512214CAC9900263F2E /* SLCountryPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 436F2537214CAC9B00263F2E /* Build configuration list for PBXNativeTarget "SLCountryPickerView" */;
+			buildPhases = (
+				436F250F214CAC9900263F2E /* Sources */,
+				436F2510214CAC9900263F2E /* Frameworks */,
+				436F2511214CAC9900263F2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SLCountryPickerView;
+			productName = SLCountryPickerView;
+			productReference = 436F2513214CAC9900263F2E /* SLCountryPickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		436F252D214CAC9B00263F2E /* SLCountryPickerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 436F253A214CAC9B00263F2E /* Build configuration list for PBXNativeTarget "SLCountryPickerViewTests" */;
+			buildPhases = (
+				436F252A214CAC9B00263F2E /* Sources */,
+				436F252B214CAC9B00263F2E /* Frameworks */,
+				436F252C214CAC9B00263F2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				436F2530214CAC9B00263F2E /* PBXTargetDependency */,
+			);
+			name = SLCountryPickerViewTests;
+			productName = SLCountryPickerViewTests;
+			productReference = 436F252E214CAC9B00263F2E /* SLCountryPickerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		436F250B214CAC9900263F2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "郑少玲";
+				TargetAttributes = {
+					436F2512214CAC9900263F2E = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					436F252D214CAC9B00263F2E = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 436F2512214CAC9900263F2E;
+					};
+				};
+			};
+			buildConfigurationList = 436F250E214CAC9900263F2E /* Build configuration list for PBXProject "SLCountryPickerView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 436F250A214CAC9900263F2E;
+			productRefGroup = 436F2514214CAC9900263F2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				436F2512214CAC9900263F2E /* SLCountryPickerView */,
+				436F252D214CAC9B00263F2E /* SLCountryPickerViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		436F2511214CAC9900263F2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				436F2526214CAC9B00263F2E /* LaunchScreen.storyboard in Resources */,
+				436F2523214CAC9B00263F2E /* Assets.xcassets in Resources */,
+				436F251E214CAC9900263F2E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		436F252C214CAC9B00263F2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		436F250F214CAC9900263F2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				436F251B214CAC9900263F2E /* ViewController.m in Sources */,
+				436F2521214CAC9900263F2E /* SLCountryPickerView.xcdatamodeld in Sources */,
+				436F253F214CACFA00263F2E /* SLBaseViewController.m in Sources */,
+				436F2529214CAC9B00263F2E /* main.m in Sources */,
+				436F2518214CAC9900263F2E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		436F252A214CAC9B00263F2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				436F2533214CAC9B00263F2E /* SLCountryPickerViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		436F2530214CAC9B00263F2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 436F2512214CAC9900263F2E /* SLCountryPickerView */;
+			targetProxy = 436F252F214CAC9B00263F2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		436F251C214CAC9900263F2E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				436F251D214CAC9900263F2E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		436F2524214CAC9B00263F2E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				436F2525214CAC9B00263F2E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		436F2535214CAC9B00263F2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		436F2536214CAC9B00263F2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		436F2538214CAC9B00263F2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9GVA5G7QYT;
+				INFOPLIST_FILE = SLCountryPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shaoling.SLCountryPickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		436F2539214CAC9B00263F2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9GVA5G7QYT;
+				INFOPLIST_FILE = SLCountryPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shaoling.SLCountryPickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		436F253B214CAC9B00263F2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9GVA5G7QYT;
+				INFOPLIST_FILE = SLCountryPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shaoling.SLCountryPickerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SLCountryPickerView.app/SLCountryPickerView";
+			};
+			name = Debug;
+		};
+		436F253C214CAC9B00263F2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9GVA5G7QYT;
+				INFOPLIST_FILE = SLCountryPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shaoling.SLCountryPickerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SLCountryPickerView.app/SLCountryPickerView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		436F250E214CAC9900263F2E /* Build configuration list for PBXProject "SLCountryPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				436F2535214CAC9B00263F2E /* Debug */,
+				436F2536214CAC9B00263F2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		436F2537214CAC9B00263F2E /* Build configuration list for PBXNativeTarget "SLCountryPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				436F2538214CAC9B00263F2E /* Debug */,
+				436F2539214CAC9B00263F2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		436F253A214CAC9B00263F2E /* Build configuration list for PBXNativeTarget "SLCountryPickerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				436F253B214CAC9B00263F2E /* Debug */,
+				436F253C214CAC9B00263F2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		436F251F214CAC9900263F2E /* SLCountryPickerView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				436F2520214CAC9900263F2E /* SLCountryPickerView.xcdatamodel */,
+			);
+			currentVersion = 436F2520214CAC9900263F2E /* SLCountryPickerView.xcdatamodel */;
+			path = SLCountryPickerView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 436F250B214CAC9900263F2E /* Project object */;
+}
